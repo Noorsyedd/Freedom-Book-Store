@@ -1,38 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Home Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/book-website-icon.png" type="image/png">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Freedom Book Store</title>
 </head>
-
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Welcome to our Online Store</h1>
+    
+    <header class="header">
+        <div class="header_container">
+            <div class="header__body">
+                <a href="index.html" class="header__logo">
+                    <img src="images/book-website-icon.png" alt="Freedom">
+                    <div class="logo-name">Freedom Book Store</div>
+                </a>
+                <div class="header__home">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="index.html" class="header__link"><b>Home</b></a>
+                        </li>
+                        <li>
+                            <a href="product.html" class="header__link">Product</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="header__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
+    <div class="container">
+        <section class="home-main-section">
+            <div class="call-to-action">
+                <h1 class="title">Looking for an interesting book?</h1>
+                <span class="subtitle">Dozens of book</span><br>
+                <span class="subtitle">Order your's</span> <br>
+                <a href="product.html" class="btn">Buy</a>
+            </div>
+           
+            <div class="img-wrapper">
+                <img src="noor.png" alt="">
+                <div class="noor-image"></div>
+            </div>
+        </section>
+    </div>
+    <div class="full-height-grow">
+        <div class="greeting">
+            <div class="txt">
+                Hello! My name is Noor and I am the Owner of this virtual store. <br>
+                Do you want to get to know each other better?
+            </div>
+            <a href="feedback.html">About the Owner</a>
+        </div>
+    </div>
+    
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="#index">Home</a></li>
-            <li><a href=#products">Products</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
 
-    <!-- Main Content - Home Page -->
-    <section class="home-page">
-        <h2>Featured Products</h2>
-        <!-- Display polarographs and images here -->
-    </section>
+        <!--Post Slider-->
+        <div class="post-slider">
+            <h1 class="slider-title">Latest Books updates</h1>
+            <i class="fa fa-chevron-left prev"></i>
+            <i class="fa fa-chevron-right next"></i>
 
-    <!-- Footer -->
+            <div class="post-wrapper">
+                <div class="post">
+                    <img src="images/article-bg-1.jpg" alt="The girl is reading a book while sitting on the windowsill." class="slider-image">
+                    <div class="post-info">
+                        <a href="single.html">Fictional Books</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="images/article-bg-3.jpg" alt="The girl sits on the windowsill, reads a book and drinks coffee." class="slider-image">
+                    <div class="post-info">
+                        <a href="single.html">Literature</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="images/article-bg-2.jpg" alt="The girl is reading a book while lying on the floor." class="slider-image">
+                    <div class="post-info">
+                        <a href="single.html">Thriller Books</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="images/books-opened.jpg" alt="A woman is reading a book while lying on the sofa." class="slider-image">
+                    <div class="post-info">
+                        <a href="single.html">Poems</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="images/article-bg-4.jpeg" alt="Many open books lie on the floor." class="slider-image">
+                    <div class="post-info">
+                        <a href="single.html">Books For IUB Admission Test</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="images/girl-reading.jpg" alt="The girl is enthusiastically reading a book." class="slider-image">
+                    <div class="post-info">
+                        <a href="single.html">Horror Books</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//Post Slider-->
+
+    </div>
+    <!--//Page Wrapper-->
+
+    <div class="fixed-image"></div>
+
+    <div class="open-books">
+        <p>Discover hundreds of new books</p>
+        <a href="product.html" class="btn">Open</a>
+    </div>
+    
     <footer>
-        <p>&copy; 2024 Syed Noor (ID: 1930146)</p>
+        <div class="footer_container">
+            <h1>Contact Information</h1>
+            <div class="row">
+                <div class="column">
+                    <p><i>mailbox</i></p>
+                    <p>syednoor.n.s311@gmail.com</p>
+                </div>
+                <div class="column" style=>
+                    <p><i>Social networks</i></p>
+                        <ul>
+                            <li>
+                                <a class="social-media" href="#">
+                                    <i class="fa fa-facebook"></i>
+                                    <div class="social-name">Facebook</div>
+                                </a>  
+                            </li>
+                            <li>
+                                <a class="social-media" href="#">
+                                    <i class="fa fa-instagram"></i>
+                                    <div class="social-name">Instagram</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="social-media" href="#">
+                                    <i class="fa fa-youtube"></i>
+                                    <div class="social-name">YouTube</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="social-media" href="#">
+                                    <i class="fa fa-telegram"></i>
+                                    <div class="social-name">Telegram</div>
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <p>&copy; Syed Noor (ID: 1930146)</p>
+        </div>  
     </footer>
-</body>
 
+    <!--Slick Carousel-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    
+
+    <!--JQuery-->
+    <script src="http://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!--JS-->
+    <script src="scripts.js"></script>
+</body>
 </html>
