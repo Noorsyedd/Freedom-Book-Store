@@ -1,1 +1,1 @@
-Live Link : https://noorsyedd.github.io/Midterm-Practical-1930146-MIS455-Sec-2/
+https://noorsyedd.github.io/Freedom-Book-Store/
